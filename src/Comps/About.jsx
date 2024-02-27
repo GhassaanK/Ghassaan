@@ -3,7 +3,6 @@ import { useState } from 'react'
 
 const About = () => {
     const [para, setPara] = useState('');
-    const [btn, setBtn] = ('XOXO');
   return (
     <div className='container sections about-content' id='about'>
         <div className="me"></div>
