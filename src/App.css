@@ -410,3 +410,11 @@ body, html {
 #btnMain{
   width: 50%;
 }
+
+#myCV{
+  color: #00B159;
+  padding-top: 10px;
+}
+.green-icon {
+  color: green;
+}

@@ -35,14 +35,14 @@ const Contact = () => {
               setIsSubmitting(false);
               setTimeout(() => {
                 setStateMessage(null);
-              }, 30000);
+              }, 100000);
             },
             (error) => {
               setStateMessage('Something went wrong, please try again later');
               setIsSubmitting(false);
               setTimeout(() => {
                 setStateMessage(null);
-              }, 5000);
+              }, 100000);
             }
           );
       

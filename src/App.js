@@ -9,6 +9,7 @@ import About from './Comps/About';
 import Team from './Comps/Team';
 import { Portfolio } from './Comps/Portfolio';
 import Contact from './Comps/Contact';
+import Footer from './Comps/Footer';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Team/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
