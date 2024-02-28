@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import myCV from '../Ghassaan_CV.pdf';
-import SkillsGraph from './SkillsGraph';
 
 const About = () => {
   const [btnValue, setBtnValue] = useState("More / Download my CV")
@@ -21,7 +20,6 @@ const About = () => {
     <div className='container sections about-content' id='about'>
       <div className="me"></div>
       <div className="dummy"></div>
-      {/* <SkillsGraph/> */}
       <div className="myAbout">
         <p>{para}</p>
         <input type="button" className='btn btn-danger' id="myBtn" onClick={btnClicked} value={btnValue} />

@@ -7,7 +7,7 @@ const Footer = () => {
                 <section className="mb-4">
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        target="_blank" href="https://www.facebook.com/GhassaanK"
+                        target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/GhassaanK"
                         role="button"
                         data-mdb-ripple-color="dark"
                         style={{ marginRight: '5px' }}
@@ -17,7 +17,7 @@ const Footer = () => {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        target="_blank" href="https://twitter.com/GhassaanK"
+                        target="_blank" rel="noreferrer noopener" href="https://twitter.com/GhassaanK"
                         role="button"
                         data-mdb-ripple-color="dark"
                         style={{ marginRight: '5px' }}
@@ -27,7 +27,7 @@ const Footer = () => {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        target="_blank" href="https://www.instagram.com/im.ghassaan"
+                        target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/im.ghassaan"
                         role="button"
                         data-mdb-ripple-color="dark"
                         style={{ marginRight: '5px' }}
@@ -37,7 +37,7 @@ const Footer = () => {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        target="_blank" href="https://www.linkedin.com/in/ghassaank/"
+                        target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/ghassaank/"
                         role="button"
                         data-mdb-ripple-color="dark"
                         style={{ marginRight: '5px' }}
@@ -47,7 +47,7 @@ const Footer = () => {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        target="_blank" href="https://github.com/GhassaanK"
+                        target="_blank" rel="noreferrer noopener" href="https://github.com/GhassaanK"
                         role="button"
                         data-mdb-ripple-color="dark"
                         style={{ marginRight: '5px' }}
@@ -59,7 +59,7 @@ const Footer = () => {
 
             <div className="text-center text-light p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
                 © 2023 Copyright 
-                <a className="text-light" target="_blank" href="https://ghassaan.netlify.app"> Ghassaan</a>
+                <a className="text-light" target="_blank" rel="noreferrer noopener" href="https://ghassaan.netlify.app"> Ghassaan</a>
             </div>
         </footer>
     );
