@@ -13,7 +13,7 @@ const Header = () => {
             <Nav.Link className="myLinks" href="#home" style={{ marginRight: '3rem' }}>Home</Nav.Link>
             <Nav.Link className="myLinks" href="#about" style={{ marginRight: '3rem' }}>About</Nav.Link>
             <Nav.Link className="myLinks" href="#team" style={{ marginRight: '3rem' }}>Team</Nav.Link>
-            <Nav.Link className="myLinks" href="#portfolio" style={{ marginRight: '3rem' }}>Portfolio</Nav.Link>
+            <Nav.Link className="myLinks" href="#portfolio" style={{ marginRight: '3rem' }}>Projects</Nav.Link>
             <Nav.Link className="myLinks" href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
