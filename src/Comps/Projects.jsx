@@ -1,12 +1,12 @@
 import React from 'react';
-import one from './p1.jpeg';
+import one from './p1.JPG';
 import two from './p2.JPG';
 
-export const Portfolio = () => {
+export const Projects = () => {
     const projects = [
         {
             "id": 1,
-            "title" : "Movie Mania",
+            "title" : "Movie Hub",
             "img" : one,
             "url" : 'https://movies422537.netlify.app'
         },

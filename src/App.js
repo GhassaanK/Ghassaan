@@ -7,9 +7,9 @@ import Home from './Comps/Home';
 import 'animate.css';
 import About from './Comps/About';
 import Team from './Comps/Team';
-import { Portfolio } from './Comps/Portfolio';
 import Contact from './Comps/Contact';
 import Footer from './Comps/Footer';
+import { Projects } from './Comps/Projects';
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       <Home/>
       <About/>
       <Team/>
-      <Portfolio/>
+      <Projects/>
       <Contact/>
       <Footer/>
     </div>
